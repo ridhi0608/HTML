@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+    <!-- Header Section -->
+    <div style="display: flex; align-items: center; padding: 20px; background-color: lightblue;">
+        <!-- Image on left -->
+        <div>
+            <img src="Lpu_logo.jpeg" width="400" height="200" alt="LPU Logo">
+        </div>
+
+        <!-- Centered Name -->
+        <div style="flex: 1; text-align: center;">
+            <span style="font-size: 40px; font-weight: bold; color: black;">
+                Lovely Professional University
+            </span>
+        </div>
+    </div>
+
+    <!-- Body Layout with Left Menu, Center Iframe, Right Extra -->
+    <div style="display: flex; height: 500px;">
+
+        <!-- Left Sidebar Links -->
+        <div style="width: 20%; background-color: lightblue; padding: 20px;">
+            <a href="home.html" target="contentFrame" 
+               style="color: black; background-color: orange; font-family: Verdana; padding: 8px 12px; text-decoration: none; display: inline-block;">
+               Home
+            </a><br><br>
+
+            <a href="about.html" target="contentFrame" 
+               style="color: black; background-color: orange; font-family: Verdana; padding: 8px 12px; text-decoration: none; display: inline-block;">
+               About Us
+            </a><br><br>
+
+            <a href="contact.html" target="contentFrame" 
+               style="color: black; background-color: orange; font-family: Verdana; padding: 8px 12px; text-decoration: none; display: inline-block;">
+               Contact Us
+            </a>
+        </div>
+
+        <!-- Center Main Content Area -->
+        <div style="width: 60%; border-left: 1px solid #ccc; border-right: 1px solid #ccc;">
+            <iframe name="contentFrame" src="home.html" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+
+        <!-- Right Side Extra Section -->
+        <div style="width: 20%; background-color: #f5f5f5; padding: 20px;">
+            <h3>Extra Info</h3>
+            <p>This space can show announcements, news, or campus updates.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
