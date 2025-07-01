@@ -1,0 +1,16 @@
+p{color: red; font-size: 24px;}
+h1{color: blue;font-size: 6em;}
+
+#id2{
+    color: rgb(112, 165, 42); font: size 20px; 
+}
+
+.special {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+p.pink{
+    color: pink;
+    font-size: 800;
+}
